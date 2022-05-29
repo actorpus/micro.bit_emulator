@@ -230,3 +230,4 @@ if __name__ == '__main__':
 else:
     print("microbit emulator v0")
     _threading.Thread(target=_run_screen).start()
+    _time.sleep(2)
